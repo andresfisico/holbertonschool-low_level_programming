@@ -1,13 +1,14 @@
 #include "main.h"
 
 /**
- * main - check the code
+ * _alphabet print alpabhet
  *
- * Return: Always 0.
+ * 
  */
 void print_alphabet(void)
 {
-	int i;	
+	int i;
+	
 	for (i = 97; i < 123; i++)
 	{
 	_putchar(i);
