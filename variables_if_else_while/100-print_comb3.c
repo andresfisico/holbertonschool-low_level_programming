@@ -12,12 +12,12 @@ int main(void)
 	int j;
 
 	i = 48;
-	j = 48;
-	while  ((i < 58) && (j < 58))
+	j = 49;
+	while  ((i < 57) && (j < 58))
 	{
 		putchar(i);
 		putchar(j);
-		if ((i == 57) && (j == 57))
+		if ((i == 56) && (j == 57))
 		{
 			putchar('\n');
 			i++;
@@ -33,8 +33,8 @@ int main(void)
 			}
 			else
 			{
-				j = 48;
 				i++;
+				j = 1 + i;
 			}
 		}
 
