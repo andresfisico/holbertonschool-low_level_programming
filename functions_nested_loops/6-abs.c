@@ -4,7 +4,7 @@
  *@i; is number calculate the absluto in number
  *Return: absolute value is number
 
-int _abs(int i);
+int _abs(int i)
 {
 	int a;
 
