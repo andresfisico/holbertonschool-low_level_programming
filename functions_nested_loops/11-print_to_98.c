@@ -9,23 +9,23 @@
 
 void print_to_98(int n)
 {
-	int i, target, comma = 0;
+	int i, j, z = 0;
 
-	target = 98;  /* Change this value to adjust number to print to */
+	j = 98; 
 
-	if (n <= target)
+	if (n <= j)
 	{
-		for (i = n; i <= target; i++)
+		for (i = n; i <= j; i++)
 		{
-			comma == 0 ? comma = 1 : printf(", ");
+			z == 0 ? z = 1 : printf(", ");
 			printf("%d", i);
 		}
 	}
 	else
 	{
-		for (i = n; i >= target; i--)
+		for (i = n; i >= j; i--)
 		{
-			comma == 0 ? comma = 1 : printf(", ");
+			z == 0 ? z = 1 : printf(", ");
 			printf("%d", i);
 		}
 	}
