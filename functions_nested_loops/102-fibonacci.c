@@ -12,9 +12,9 @@ int main(void)
 	long int k;
 
 	printf("%lu, ", i);
-	while (count <= 100)
+	while (count <= 50)
 	{
-		if (count == 100)
+		if (count == 50)
 		{
 			printf("%lu\n", j);
 		}
