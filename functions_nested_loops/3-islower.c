@@ -3,7 +3,6 @@
 /**
  * _islower - checks for lowercase character.
  * letter from the English alphabet.
- * 
  * Return: 1 if it is a lowercase letter, 0 if it is not a lowercase letter.
  */
 
