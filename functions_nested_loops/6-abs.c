@@ -6,8 +6,6 @@
  */
 int _abs(int i)
 {
-	int a;
-
 	i = _abs(i);
 
 	return (i); 
