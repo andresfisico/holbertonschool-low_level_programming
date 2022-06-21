@@ -11,7 +11,7 @@ void print_to_98(int n)
 {
 	int i, j, z = 0;
 
-	j = 98; 
+	j = 98;
 
 	if (n <= j)
 	{
