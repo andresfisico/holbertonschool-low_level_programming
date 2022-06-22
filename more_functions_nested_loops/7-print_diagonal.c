@@ -14,6 +14,6 @@ int i;
 	{
 		_putchar(32);
 	}
-	_putchar(92)
+	_putchar(92);
 	_putchar('\n');
 }
