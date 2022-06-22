@@ -1,0 +1,12 @@
+#!/bin/bash
+echo Escriba el nombre del archivo:
+read archivo
+touch $archivo
+echo " #incude "main.h" " >> $archivo
+echo " " >> $archivo
+echo "/** " >> $archivo
+echo "*" >> $archivo 
+echo "*" >> $archivo
+echo "*" >> $archivo
+echo "*" >> $archivo
+echo "*/" >> $archivo
