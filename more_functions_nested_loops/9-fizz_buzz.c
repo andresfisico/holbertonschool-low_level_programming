@@ -25,6 +25,6 @@ int main()
 				{
 				printf("FizzBuzz ");
 				}
-				else printf("%d ",i);
+		else printf("%d ",i);
 		}
 }
