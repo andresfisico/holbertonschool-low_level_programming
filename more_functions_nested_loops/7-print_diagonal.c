@@ -12,7 +12,8 @@ int i;
 
  	for (i = 0; i < n; i++)
 	{
-		_putchar('\\');
+		_putchar('32');
 	}
+	_putchar('92')
 	_putchar('\n');
 }
