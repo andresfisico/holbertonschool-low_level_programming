@@ -6,7 +6,7 @@
 *
 * Return: numbers in a column
 */
-print_diagonal(int n)
+void  print_diagonal(int n)
 {
 int i;
 
