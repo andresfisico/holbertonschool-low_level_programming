@@ -9,8 +9,8 @@
 
 void reset_to_98(int *n)
 {
-	int *p; // Se declara el puntero p
-	p = &n; // Se le asigna la dirección de n
-	*p = 98; // Se actualiza el valor que apunta a 98 
+	int *p;
+	p = &n;
+	*p = 98; 
 	return 0;
 }
