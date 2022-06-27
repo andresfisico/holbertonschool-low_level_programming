@@ -13,7 +13,7 @@ void _puts(char *str)
 	while (*(str + i))
 	{
 		i++;
-		printf ("%c",i) ;
+		printf ("%c", i) ;
 	}
 	printf("/n");
 }
