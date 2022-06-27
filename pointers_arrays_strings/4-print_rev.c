@@ -20,7 +20,7 @@ void pritn_rev(char *s)
 	while (*(s + (j - 1)))
 	{ 
 		_putchar(*(s + (j - 1)));
-		i--;
+		j--;
 	}
 	_putchar('\n');
 }
