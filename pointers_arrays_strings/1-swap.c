@@ -3,16 +3,15 @@
 
 /**
  * main - check the code
+ * @a: first int to swap
+ * @b: second int to swap
  *
- * Return: Always 0.
+ * Return: null
  */
 void swap_int(int *a, int *b)
 {
-	int a, b;
+	*a = *b;
+	*b = *a;
 
-	a = &b;
-	b = &a;
-	*a = b;
-	*b = a;
 }
 
