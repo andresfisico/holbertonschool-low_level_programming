@@ -1,4 +1,4 @@
-#include <stdioi.h>
+#include <stdio.h>
 #include "main.h"
 
 /**
@@ -14,6 +14,7 @@ void swap_int(int *a, int *b)
 	pp=&b;
 	  
 	p=b;
+
 	pp=a;
 }
 
