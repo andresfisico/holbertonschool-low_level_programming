@@ -9,21 +9,19 @@
  */
 void rev_string(char *s)
 {
-	int j, i = 0;
- 
+	int i = 0, j = 0;
+	char ss[20];
+
 	while (*(s + i))
 	{
-		_putchar(*(s + i));
+		*(ss + i) = *(s + i);
 		i++;
 	}
-	
-	j = i - 1;
-	_putchar('\n');
-
-	while (*(s + j))
+	i = i - 1;
+	while (i >= 0)
 	{
-		_putchar(*(s + j));
-		j--;
+		*(s + i) = *(ss + j);
+		j++;
+		i--;
 	}
-	_putchar('\n');
 }
