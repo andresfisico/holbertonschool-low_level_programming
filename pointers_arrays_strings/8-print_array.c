@@ -4,7 +4,8 @@
 
 /**
  * print_array - print elements to array
- *
+ * @n: number elements array
+ * @a: name punter array
  * Return: void
  */
 void print_array(int *a, int n)
