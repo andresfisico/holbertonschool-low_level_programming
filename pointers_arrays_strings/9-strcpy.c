@@ -3,7 +3,7 @@
 
 
 /**
- * *_strcpy(char *dest, char *src) - print elements to array
+ * *_strcpy - copies the string pointed
  * @dest: number elements array
  * @src: name punter array
  * Return: value the pointer to desti
