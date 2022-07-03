@@ -1,4 +1,6 @@
 #include "main.h"
+#include <stdio.h>
+
 
 /**
  * print_array - print elements to array
@@ -16,9 +18,4 @@ void print_array(int *a, int n)
 	}
 
 	printf("\n");
-
-
-
-
-
 }
